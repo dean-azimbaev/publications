@@ -6,8 +6,7 @@ export function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<h1>home page</h1>}></Route>
-        <Route path="/publication" element={<PublicationsPage />} />
+        <Route path="/" element={<PublicationsPage />}></Route>
       </Routes>
     </Router>
   );
